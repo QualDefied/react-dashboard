@@ -1,21 +1,61 @@
-# bun-react-tailwind-shadcn-template
+# React Dashboard
 
-To install dependencies:
+A modern React TypeScript dashboard application built with shadcn/ui components, featuring API testing capabilities.
+
+## 🚀 Features
+
+- **React 18** with TypeScript
+- **Tailwind CSS** for styling
+- **shadcn/ui** component library
+- **API Tester** component for testing endpoints
+- **Bun** runtime for fast development
+- **Vite** for build tooling
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Bun](https://bun.sh) runtime
+
+### Installation
 
 ```bash
 bun install
 ```
 
-To start a development server:
+### Development
 
 ```bash
 bun dev
 ```
 
-To run for production:
+### Production
 
 ```bash
 bun start
 ```
 
-This project was created using `bun init` in bun v1.2.21. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   └── ui/          # shadcn/ui components
+├── APITester.tsx    # API testing component
+├── App.tsx          # Main application
+├── index.tsx        # Application entry point
+└── lib/
+    └── utils.ts     # Utility functions
+```
+
+## 🏗️ Built With
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Bun](https://bun.sh/)
+
+---
+
+**Repository**: [https://github.com/QualDefied/react-dashboard](https://github.com/QualDefied/react-dashboard)
